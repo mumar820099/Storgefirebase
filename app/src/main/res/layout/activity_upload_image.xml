@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadImage">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_nameET"
+        android:maxLength="20"
+        android:hint="@string/add_image_name"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/imagetouploadIV"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/image_nameET"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_file_upload"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image"
+        android:id="@+id/uploadimgbtn"
+        android:layout_below="@id/imagetouploadIV"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Storgefirebase</string>
+    <string name="download_image">Download Image</string>
+    <string name="downlaod_video">Downlaod Video</string>
+    <string name="uplaod_video">Uplaod Video</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="add_image_name">Add Image Name</string>
+    <string name="please_enter_video_name">Please Enter Video Name</string>
+    <string name="download_video">Download Video</string>
+    <string name="upload_to_firestore">Upload to FireStore</string>
+    <string name="please_wait">Please Wait</string>
+</resources>

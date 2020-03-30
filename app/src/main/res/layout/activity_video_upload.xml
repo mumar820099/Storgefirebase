@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoUpload">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videonameET"
+        android:hint="@string/please_enter_video_name"
+        android:layout_margin="10dp"
+        />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/videoview"
+        android:layout_below="@id/videonameET"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videouploadbtn"
+        android:text="@string/upload_to_firestore"
+        android:layout_below="@id/videoview"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

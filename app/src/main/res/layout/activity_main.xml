@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movetouploadbtn"
+        android:text="@string/upload_image"
+        android:background="@color/btnBackground"
+        android:onClick="toupload"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movetodownloadbtn"
+        android:text="@string/download_image"
+        android:background="@color/btnBackground"
+        android:layout_margin="5dp"
+        android:layout_below="@id/movetouploadbtn"
+        android:onClick="todownload"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videouploadbtn"
+        android:text="@string/uplaod_video"
+        android:background="@color/btnBackground"
+        android:layout_margin="5dp"
+        android:layout_below="@id/movetodownloadbtn"
+        android:onClick="touploadVideo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videodownloadbtn"
+        android:text="@string/downlaod_video"
+        android:background="@color/btnBackground"
+        android:layout_margin="5dp"
+        android:layout_below="@id/videouploadbtn"
+        android:onClick="todownloadVideo"/>
+
+</RelativeLayout>
